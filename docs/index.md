@@ -27,6 +27,7 @@ hide:
 **نفیسه سعیدی بروجنی**
 
 کارشناسی ارشد شنوایی‌شناسی (ادیولوژی)
+
 :material-card-account-details-outline: شماره نظام پزشکی: ش-۱۲۵۲
 { .profile-meta }
 
