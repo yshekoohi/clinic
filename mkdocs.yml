@@ -62,16 +62,16 @@ extra_css:
 
 extra:
   generator: false
-  homepage: https://irtlv.ir
+  homepage: https://yshekoohi.github.io/clinic/
   social:
     - icon: material/instagram
-      link: https://fosstodon.org/@squidfunk
+      link: ""
     - icon: material/youtube
-      link: https://fosstodon.org/@squidfunk
+      link: ""
     - icon: simple/telegram
-      link: https://fosstodon.org/@squidfunk
+      link: ""
     - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
+      link: ""
       name: squidfunk on Fosstodon
 
 copyright: اصفهان، خیابان آمادگاه، جنب داروخانه اصفهان، ساختمان بوعلی ۱ ، طبقه ۱، شنوایی سنجی نفیس - تلفن ۰۳۱۳۲۲۴۷۹۵۱
