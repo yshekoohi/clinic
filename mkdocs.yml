@@ -1,0 +1,102 @@
+site_name: "کلینیک شنوایی نفیس"
+site_url: https://mydomain.org/
+repo_url: ""
+theme:
+  logo: assets/logo.png
+  favicon: images/favicon.png
+  language: fa
+  name: material
+  custom_dir: overrides
+  direction: rtl
+  font: false
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/brightness-7
+        name: تغییر به حالت تاریک
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: تغییر به حالت روشن
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.prune
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    # - navigation.footer
+    - header.autohide
+    # - toc.follow
+    - search.suggest
+    - search.highlight
+
+    # Follows the visitor's system setting by default
+
+plugins:
+  - search
+  - glightbox
+  - blog
+  - social
+  - tags
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/home.css
+
+extra:
+  generator: false
+  homepage: https://irtlv.ir
+  social:
+    - icon: material/instagram
+      link: https://fosstodon.org/@squidfunk
+    - icon: material/youtube
+      link: https://fosstodon.org/@squidfunk
+    - icon: simple/telegram
+      link: https://fosstodon.org/@squidfunk
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+
+copyright: اصفهان، خیابان آمادگاه، جنب داروخانه اصفهان، ساختمان بوعلی ۱ ، طبقه ۱، شنوایی سنجی نفیس - تلفن ۰۳۱۳۲۲۴۷۹۵۱
+
+nav:
+  - "صفحه اصلی": index.md
+  - "خدمات کلینیکی":
+      - "ارزیابی تخصصی شنوایی": services/hearing-assessment.md
+      - "ارزیابی و توانبخشی تعادل": services/balance-rehabilitation.md
+      - "درمان سرگیجه": services/vertigo-treatment.md
+      - "سمعک و قالب گوش": services/hearing-aids.md
+  - "بیماری‌های گوش":
+      - diseases/index.md
+      - "انواع کم‌شنوایی": diseases/hearing-loss-types.md
+      - "کم‌شنوایی ناگهانی": diseases/sudden-hearing-loss.md
+      - "کم‌شنوایی سالمندی": diseases/presbycusis.md
+      - "کم‌شنوایی ناشی از صدا": diseases/noise-induced-hearing-loss.md
+      - "وزوز گوش": diseases/tinnitus.md
+      - "عفونت گوش میانی": diseases/otitis-media.md
+      - "جرم گوش": diseases/earwax.md
+      - "بیماری منیر": diseases/menieres-disease.md
+  - "تست‌های شنوایی":
+      - tests/index.md
+      - "ادیومتری تن خالص": tests/pure-tone-audiometry.md
+      - "ادیومتری گفتار": tests/speech-audiometry.md
+      - "تمپانومتری و رفلکس صوتی": tests/tympanometry.md
+      - "اتوآکوستیک امیشن (OAE)": tests/oae.md
+      - "پاسخ شنوایی ساقه مغز (ABR)": tests/abr.md
