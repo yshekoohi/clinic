@@ -8,8 +8,47 @@
 .md-typeset details {
   border-width: 0;
   border-right-width: 4px;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
-  .md-content__inner > h1 { font-size: 1.2rem; }
-  .md-content__inner > h2 { font-size: 1.1rem; }
+.md-content__inner > h1 {
+  font-size: 1.2rem;
+}
+.md-content__inner > h2 {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .md-sidebar--primary {
+    width: 18rem; /* default is 12.1rem */
+    max-width: 85vw; /* never cover the whole screen */
+  }
+
+  /* the drawer slides in by translating it off-screen, so match its width */
+  [dir="rtl"] .md-sidebar--primary {
+    transform: translateX(18rem);
+  }
+  [dir="ltr"] .md-sidebar--primary {
+    transform: translateX(-18rem);
+  }
+
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary {
+    transform: translateX(0);
+  }
+}
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 1.6rem;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+ .md-header__button.md-logo {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.md-header__title>.md-header__ellipsis {
+    padding-top: 4px;
+}

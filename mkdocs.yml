@@ -28,12 +28,8 @@ theme:
     - navigation.instant.progress
     - navigation.tabs
     - navigation.sections
-    # - navigation.prune
     # - navigation.indexes
     - navigation.top
-    # - navigation.footer
-    - header.autohide
-    # - toc.follow
     - search.suggest
     - search.highlight  
 
