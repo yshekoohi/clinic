@@ -1,6 +1,0 @@
----
-hide:
-  - toc
----
-
-# Page title

@@ -2,8 +2,8 @@ site_name: "کلینیک شنوایی نفیس"
 site_url: https://yshekoohi.github.io/clinic/
 repo_url: ""
 theme:
-  logo: assets/logo.png
-  favicon: images/favicon.png
+  logo: assets/nafis-logo.svg
+  favicon: assets/nafis-logo.svg
   language: fa
   name: material
   custom_dir: overrides
@@ -14,28 +14,28 @@ theme:
       scheme: default
       primary: white
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: تغییر به حالت تاریک
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: تغییر به حالت روشن
   features:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tabs
-    - navigation.prune
     - navigation.sections
-    - navigation.indexes
+    # - navigation.prune
+    # - navigation.indexes
     - navigation.top
     # - navigation.footer
     - header.autohide
     # - toc.follow
     - search.suggest
-    - search.highlight
+    - search.highlight  
 
     # Follows the visitor's system setting by default
 

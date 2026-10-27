@@ -3,3 +3,13 @@
   height: auto;
   border-radius: 8px;
 }
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-right-width: 4px;
+  font-size: .75rem;
+}
+
+  .md-content__inner > h1 { font-size: 1.2rem; }
+  .md-content__inner > h2 { font-size: 1.1rem; }
